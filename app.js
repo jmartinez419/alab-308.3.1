@@ -26,9 +26,10 @@ function checkPrime(num) {
       console.log(num + " is prime");
   else
       console.log(num + " is not prime");
+    return flag;
 }
 
-let n = 10;
+let n = 24;
 
 while (true) {
   let nextNum = n + 1;
@@ -36,5 +37,6 @@ while (true) {
     console.log(nextNum);
     break;
   }
+  
   n++;
 }
